@@ -13,7 +13,6 @@ public class Main {
 
         String name = scanner.nextLine();
         System.out.println("name "+name);
-
         float marks = scanner.nextFloat();
         System.out.println("marks "+marks);
     }
