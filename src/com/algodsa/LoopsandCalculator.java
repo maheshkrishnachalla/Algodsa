@@ -1,7 +1,5 @@
 package com.algodsa;
 
-import org.omg.Messaging.SyncScopeHelper;
-
 import java.util.Scanner;
 
 public class LoopsandCalculator {
