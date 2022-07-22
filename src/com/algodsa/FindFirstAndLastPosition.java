@@ -12,8 +12,12 @@ public class FindFirstAndLastPosition {
     //find first and last index of the target in the array
     static int[] firstandLastPosition(int[] arr, int tr){
         int[] res = {-1, -1};
-        int start = search(arr, tr, true);
-        int end = search(arr, tr, false);
+        int start = -1;
+        int end = -1;
+        start = search(arr, tr, true);
+        if (start !=-1) {
+            end = search(arr, tr, false);
+        }
         res[0] = start;
         res[1] = end;
         return res;
